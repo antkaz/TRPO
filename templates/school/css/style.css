@@ -1,0 +1,109 @@
+/*
+    Document   : style
+    Created on : 26.10.2012, 1:27:51
+    Author     : Антон
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #444444;
+}
+
+p {
+	margin: 0;
+}
+
+a, a:active, a:visited {
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#body {
+	background: #D79FFF url(../images/background4.gif) 50% 0 repeat-y;
+	margin: 0;
+}
+
+#block {
+	position: relative;
+	width: 700px;
+	margin: 0 auto;
+}
+
+#header {
+	margin: 0 10px 10px 10px;
+	padding-top: 20px;
+	height: 100px;
+}
+
+#top {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 13px;
+}
+
+#top a {
+	margin: 0 10px;
+}
+
+#main {
+	padding: 15px;
+	overflow: hidden;
+}
+
+#horisontal-menu {
+	width: 700px;
+	height: 29px;
+	background: #D79FFF url(../images/hmenu.gif) repeat-x;
+}
+
+#horisontal-menu .menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#horisontal-menu .menu li {
+	float: left;
+	width: 140px;
+	text-align: center;
+}
+
+#horisontal-menu .menu li a {
+	padding: 5px 0;
+	display: block;
+	text-decoration: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+#horisontal-menu .menu li a:hover {
+	background: url(../images/hmenu-active.gif) repeat-x;
+}
+
+#top-menu {
+	overflow: hidden;
+}
+.line-menu {
+	float: right;
+}
+.line-menu li {
+	float: left;
+	display: block;
+	position: relative;
+	margin-right: 10px;
+}
+.line-menu li a {
+	display: block;
+	text-decoration: underline;
+}
+.line-menu li a:hover {
+	text-decoration: none;
+}
